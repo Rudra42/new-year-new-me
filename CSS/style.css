@@ -45,3 +45,27 @@ header{
     padding: 20px 30px;
     border-radius: 5px;
 }
+
+/* goals styling */
+.goals{
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.section-title{
+    font-weight: 700;
+    font-size: 40px;  
+    color: #151414;  
+    margin-bottom: 24px;
+}
+.goals-description{
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    margin-bottom: 16px;
+}
+.tik-color{
+    color: #005FAC;
+}
