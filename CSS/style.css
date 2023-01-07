@@ -75,8 +75,7 @@ header{
 }
 /* my plans styling */
 .plans{
-    max-width: 1140px;
-    margin: 0 auto;
+    margin-bottom:200px;
 }
 .single-plan{
     text-align: center;
@@ -102,4 +101,65 @@ header{
     font-size:18px;
     color: #737272;
     margin-top: 16px;
+}
+
+/* footer styles */
+
+.footer{
+    background-color: #151414;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-top: 80px;
+}
+.footer-container{
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+}
+.footer-details .section-title{
+    color: #FFFFFF;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.footer-description{
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.social a img{
+    margin-right: 15px;
+}
+.subscribe .section-title{
+    color: #FFFFFF;
+}
+.footer-details{
+    width: 60%;
+}
+
+.subscribe{
+    width: 40%;
+}
+.subscribe input{
+    height: 50px;
+    width: 325px;
+    color: #FFFFFF !important;
+    border: 1px solid #FFFFFF;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 5px 20px;
+    border-radius: 5px;
+    background-color: #151414;
+}
+.btn-secondary{
+    height: 64px;
+    background-color: #005FAC;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 20px;
+    border: none;
+    padding: 20px 30px;
+    border-radius: 5px;
+    margin-top: 20px;
 }
