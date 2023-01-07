@@ -2,6 +2,10 @@
     margin: 0;
     font-family: 'Open Sans', sans-serif;
 }
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
 /* header styles */
 
 header{
@@ -48,10 +52,10 @@ header{
 
 /* goals styling */
 .goals{
-    max-width: 1140px;
-    margin: 0 auto;
     display: flex;
     align-items: center;
+    margin-top:40px;
+    margin-bottom: 40px;
 }
 
 .section-title{
@@ -68,4 +72,34 @@ header{
 }
 .tik-color{
     color: #005FAC;
+}
+/* my plans styling */
+.plans{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.single-plan{
+    text-align: center;
+}
+.plans .section-title{
+    text-align: center;
+}
+
+
+.plans-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.plan-title{
+    font-weight: 700;
+    font-size: 22px;
+    color: #151414;
+    margin-top: 25px;
+}
+.plan-description{
+    font-weight: 500;
+    font-size:18px;
+    color: #737272;
+    margin-top: 16px;
 }
