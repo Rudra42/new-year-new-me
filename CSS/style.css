@@ -102,7 +102,22 @@ header{
     color: #737272;
     margin-top: 16px;
 }
-
+/* gradient styles */
+.gradiant{
+    margin-top: 80px;
+    background: rgb(2,0,36);    
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,41,121,1) 44%, rgba(0,212,255,1) 100%);
+    padding: 50px 0px;
+    border-radius: 10px;
+}
+.gradiant h3, button{
+    margin-left: 60px;
+}
+.gradiant .section-title{
+    color: #FFFFFF;
+    font-size: 40px;
+    font-weight: 700;
+}
 /* footer styles */
 
 .footer{
