@@ -110,7 +110,10 @@ header{
     padding: 50px 0px;
     border-radius: 10px;
 }
-.gradiant h3, button{
+.gradiant h3{
+    margin-left: 60px;
+}
+.gradiant button{
     margin-left: 60px;
 }
 .gradiant .section-title{
@@ -118,6 +121,28 @@ header{
     font-size: 40px;
     font-weight: 700;
 }
+/*  quotes styles */
+.quotes{
+    margin-top: 50px;
+}
+.quotes .section-title{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.quote-container{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+.single-quote{
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 15px 10px;
+}
+.single-quote .section-title{
+    font-size: 18px;
+}
+
 /* footer styles */
 
 .footer{
